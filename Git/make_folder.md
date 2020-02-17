@@ -1,3 +1,5 @@
-it's just simple
+Make a folder
+=============
 
-press 'Create New File' button, and make folder with '/'. 
+#it's just simple
+#press 'Create New File' button, and make folder with '/'. 

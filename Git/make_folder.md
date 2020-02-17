@@ -1,0 +1,3 @@
+it's just simple
+
+press 'Create New File' button, and make folder with '/'. 

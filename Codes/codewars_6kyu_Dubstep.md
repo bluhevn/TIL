@@ -10,42 +10,44 @@ Dubstep - Javascript
 ####  // =>  WE ARE THE CHAMPIONS MY FRIEND
 
 ### my code
-
-> function songDecoder(song){
->   
->   /* 첫번째 답
->   while(song.indexOf("WUB") > -1)	{
->   	song = song.replace("WUB", " ");
->   }
-> 
->   while(song.indexOf("  ") > -1)	{
->   	song = song.replace("  ", " ");
->   }
->   
->   if(song.indexOf(" ") == 0  )	{
->   	song = song.replace(" ", "");	
->   }
-> 
->   if(song.charAt(song.length-1) == " ")	{
->   	song = song.slice(0, -1);
->   }
->   return song;
->   */
-> 
->   // 최종답 
->   song = song.split("WUB").join(" ");
->   song = song.split("  ").join(" ");
-> 
->   if(song.indexOf(" ") == 0  )	{
->   	song = song.replace(" ", "");	
->   }
-> 
->   if(song.charAt(song.length-1) == " ")	{
->   	song = song.slice(0, -1);
->   }
->   return song;
-> }
-
+<pre>
+<code>
+ function songDecoder(song){
+   
+   /* 첫번째 답
+   while(song.indexOf("WUB") > -1)	{
+   	song = song.replace("WUB", " ");
+   }
+ 
+   while(song.indexOf("  ") > -1)	{
+   	song = song.replace("  ", " ");
+   }
+   
+   if(song.indexOf(" ") == 0  )	{
+   	song = song.replace(" ", "");	
+   }
+ 
+   if(song.charAt(song.length-1) == " ")	{
+   	song = song.slice(0, -1);
+   }
+   return song;
+   */
+ 
+   // 최종답 
+   song = song.split("WUB").join(" ");
+   song = song.split("  ").join(" ");
+ 
+   if(song.indexOf(" ") == 0  )	{
+   	song = song.replace(" ", "");	
+   }
+ 
+   if(song.charAt(song.length-1) == " ")	{
+   	song = song.slice(0, -1);
+   }
+   return song;
+ }
+</code>
+</pre>
 #### 부끄럽다.... 
 #### 가장 멋져 보이는 답
 > function songDecoder(song){

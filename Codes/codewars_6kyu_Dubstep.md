@@ -6,8 +6,10 @@ Dubstep - Javascript
 ### Output
 #### Return the words of the initial song that Polycarpus used to make a dubsteb remix. Separate the words with a space.
 ### Example
-#### songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
-####  // =>  WE ARE THE CHAMPIONS MY FRIEND
+<pre><code>
+songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
+// =>  WE ARE THE CHAMPIONS MY FRIEND
+</code></pre>
 
 ### my code
 <pre>
@@ -50,12 +52,15 @@ Dubstep - Javascript
 </pre>
 #### 부끄럽다.... 
 #### 가장 멋져 보이는 답
-> function songDecoder(song){
->   return song.replace(/(WUB)+/g," ").trim()
-> }
+<pre><code>
+ function songDecoder(song){
+   return song.replace(/(WUB)+/g," ").trim()
+ }
+ </code></pre>
 #### 이 또한 멋진답
-> function songDecoder(song){
->   return song.split('WUB').filter(Boolean).join(' ');
-> }
-
+<pre><code>
+ function songDecoder(song){
+   return song.split('WUB').filter(Boolean).join(' ');
+ }
+</code></pre>
 

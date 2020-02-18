@@ -11,12 +11,12 @@ Dubstep - Javascript
 
 ### my code
 
-function songDecoder(song){
-  
-  /* 첫번째 답
-  while(song.indexOf("WUB") > -1)	{
-  	song = song.replace("WUB", " ");
-  }
+> function songDecoder(song){
+>   
+>   /* 첫번째 답
+>   while(song.indexOf("WUB") > -1)	{
+>   	song = song.replace("WUB", " ");
+>   }
 
   while(song.indexOf("  ") > -1)	{
   	song = song.replace("  ", " ");
